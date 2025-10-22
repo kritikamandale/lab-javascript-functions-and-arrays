@@ -30,8 +30,15 @@ console.log(result2);
 
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
-
-function sumNumbers() {}
+function sumNumbers() {
+  let sum =0;
+  for(let i=0;i<numbers.length;i++){
+    sum+= numbers[i];
+  }
+  return sum;
+}
+const result3 = sumNumbers();
+console.log(result3);
 
 
 
